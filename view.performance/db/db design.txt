@@ -1,0 +1,43 @@
+Tables:-
+	* Login
+	* Register
+	* Companies
+	* Project
+	* Project Details
+
+
+
+Columns:-
+
+login
+|-> pk, email, password(encyp), security_question, security_answer, created_date, active
+
+register
+|-> pk, login_pk, name, picture, mobile, address,degree, dob, country, state, city
+
+companies
+|-> pk, login_pk, name, start_date, end_date, created_date, modified_date, active
+
+project
+|-> pk, login_pk, name, company(dropdown)*, type*, created_date, active
+
+project_details
+|-> id, project_pk, type(drop down)*, description, start_date, finish_date, credits(user input)*, ratings*, contribution(drop down)*, created_date, modified_date, active
+
+cookie
+|-> id, token, created, endtime, browser_details, type
+
+
+
+
+Note:- Stars next to columns means contains very important notes
+
+1) type in new_project table is type of project ex: personal, company, freelance etc
+2) company in project table is dropdown, if it is first time then show it has text field and 
+   next to it give option to add new companies
+3) type in project_details is ex: feature, issue.
+4) credits in project_details is ex: got increment, got notified, company gained profit,  etc it is user input
+5) contribution in project_details is: single or individual
+6) ratings in project_details means, how do you rate this effort out of 10.
+7) type in cookie table is it is type how cookie is ended ex: manually by clicking logout  or when the user is opened the
+    after long period and scripts ends the cookie and allows to create new one 	 	

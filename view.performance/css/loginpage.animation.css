@@ -1,0 +1,95 @@
+body {
+	background-color: #E8DDCB;
+	background: url('../images/stripes.png');
+}
+.header {
+	background-color: #CDB380;
+	border-color: #031634;
+}
+.footer {
+	background-color: #033649;
+	color: white;
+	border-color: #031634;
+}
+.graph-container {
+	border-color: #031634;
+}
+.theme-img-bg-color {
+	background-color: #031634;
+}
+.reg-login-title {
+	background-color: #031634;	
+	color: white;
+}
+.reg-login-isvalid, .reg-login-title-ico {
+	border-radius: 100%;
+}
+.reg-login-hint, .aboutMomeenDotCom {
+	background-color: #036564;
+	color: white;
+	border-radius: 3px;
+}
+.aboutMomeenDotCom {
+	border-color: white
+}
+.me {
+	border: solid 3px white;
+	border-radius: 100%;
+	max-width: 17%
+}
+.reg-login-title-ico {
+	background: url('../icons/right-ext.png')no-repeat center center;
+	border: solid 1px rgba(255,255,255,0.2);	
+}
+.reg-login-btn {
+	background-color: #031634;
+	color: white;	
+}
+#slide-left-img {
+	background: url('../icons/left-big-ext.png') no-repeat center center / 35px 40px;
+}
+#slide-right-img {
+	background: url('../icons/right-big-ext.png') no-repeat center center / 40px 40px;
+}
+.user-id-isvalid-tick {
+	background: #031634 url('../icons/tick.png') no-repeat center center;	
+	border-color: black;
+}
+.reg-log-error-div {
+
+	-webkit-transition: width ease .218s;
+	-moz-transition: width ease .218s;
+	-o-transition: width ease .218s;
+	-ms-transition: width ease .218s;
+	transition: width ease .218s;
+	-webkit-transform: translatez(0);
+	-moz-transform: translatez(0);
+	-o-transform: translatez(0);
+	-ms-transform: translatez(0);
+	transform: translatez(0);
+	border-left: solid 2px #031634;
+}
+ #graph-area {
+	-webkit-transition: left ease .218s;
+	-moz-transition: left ease .218s;
+	-o-transition: left ease .218s;
+	-ms-transition: left ease .218s;
+	transition: left ease .218s;
+	-webkit-transform: translatez(0);
+	-moz-transform: translatez(0);
+	-o-transform: translatez(0);
+	-ms-transform: translatez(0);
+	transform: translatez(0);
+}
+.slide-controls:active {
+	border: solid 3px white;
+	border-radius: 3px;
+	box-shadow: 1px 1px 8px 1px rgb(109, 103, 103);
+}
+#first-time-visitors {
+	box-shadow: 2px 2px 4px rgba(0,0,0,0.2);
+	-webkit-box-shadow: 2px 2px 4px rgba(0,0,0,0.2);
+	-moz-box-shadow: 2px 2px 4px rgba(0,0,0,0.2);
+	-o-box-shadow: 2px 2px 4px rgba(0,0,0,0.2);
+	-ms-box-shadow: 2px 2px 4px rgba(0,0,0,0.2);
+}

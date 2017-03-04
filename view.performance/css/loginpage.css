@@ -1,0 +1,307 @@
+.theme-limit-container {
+	max-width: 1300px;
+	min-width: 600px;
+	margin: auto;
+}
+.header {
+	padding: 10px 10px;
+	border-bottom: solid .3em black;
+}
+.heading-font-fmly {	
+	font-family: BentonSans,"Lucida Sans","Lucida Grande",sans-serif;
+}
+.content-font-fmly {	
+	font-family: BentonSans,"Lucida Sans","Lucida Grande",sans-serif;
+}
+.heading-appname {
+	font-size: 2.6em;
+}
+.heading-subtitle{
+	font-size: 1em;
+}
+.graph-container, .login-registeration-container {
+	min-height: 400px;
+	display: inline-block;
+	vertical-align: top;
+	padding-bottom: 50px;/* because, slide controls are placed below*/
+}
+.graph-container {
+	width: 60%;
+	border-right: solid 1px gray;
+	overflow: hidden;
+}
+.login-registeration-container {
+	width: 39%;
+}
+.center-container {
+	padding: 5px 0px;
+}
+.footer {
+	display: block;
+	padding: 10px 4px 6px 4px;
+	text-align: right;
+	border-top: solid 0.3em black;
+}
+.footer-content {
+	display: inline-block;
+	width: 470px;
+	margin-right: .7%;
+}
+.footer-text, .footer-logo {
+	display: inline-block;
+	min-height: 30px;
+	vertical-align: middle;
+}
+.footer-text {
+	width: 68%;
+}
+.footer-logo {
+	width: 30%;
+	height:90px;
+	max-width: 100px;
+	background: url('../images/admin.png')no-repeat center center;
+}
+.basic-reg-login-input {
+	height: 2.5em;
+	width: 98%;
+	font-size: 1em;
+	text-align: right;
+}
+.reg-login-form-div {
+	width: 96%;
+	margin: auto;
+	text-align: right;
+}
+.reg-login-input-holder {
+	margin: 10px 0px;
+}
+.reg-login-label {
+	font-size: 1.4em;
+}
+.reg-login-submit-buttons {
+	margin: 10px 0px;
+}
+.basic-reg-login-btn {
+	width: 100px;
+	height: 30px;
+}
+.reg-login-isvalid {
+	position: absolute;
+	top: 0.5em; 
+	left: 9px;
+	height: 28px;
+	width: 29px;
+	border: solid 1px rgb(230, 225, 225);
+	background: url('../icons/dot.png') no-repeat center center / 10px 10px;
+}
+.slide-controllers-div {
+	height: 50px;
+}
+#slide-information {
+	text-align: center;
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	font-weight: bold;
+	color: #333333;
+}
+.slide-controls {
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	width: 60px;
+	cursor: pointer;
+}
+#slide-left-img, #slide-right-img {
+	position: absolute;
+	left: 0; right: 0;
+	bottom: 0; top: 0;
+}
+#slide-left {
+	left: 4px;
+}
+#slide-right {
+	right: 4px;
+}
+#slide-left-img {
+	background: url('../icons/left-big.png') no-repeat center center / 40px 40px;
+}
+#slide-right-img {
+	background: url('../icons/right-big.png') no-repeat center center / 40px 40px;
+}
+#graph-area {
+	height: 400px;
+	overflow: hidden;
+	position: absolute;
+	left: 0;
+}
+.individual-graphs {
+	float: left;
+	text-align: center;
+	//border: solid 1px gray;
+}
+.reg-login-title {
+	padding: 4px 0px 3px 0px;
+	text-align: right;
+	font-size: 1.2em;
+	font-weight: bold;
+	width: 96%;
+	margin: auto;
+}
+.reg-login-title-ico {
+	width: 28px;
+	height: 28px;
+	border: solid 1px gray;
+	background: url('../icons/right.png')no-repeat center center;
+	display: inline-block;
+	vertical-align: middle;
+	margin: 0px 2px 0px 5px;
+}
+
+.reg-login-hint {
+	position: absolute;
+	bottom: 0px;
+	left: 0;
+	padding: 4px;
+	background-color: white;
+	border: solid 1px white;
+	display: inline;
+	text-align: left;
+}
+.reg-login-hint-active {
+	bottom: 47px;	
+}
+.reg-login-hint-down-arr, .aboutme-info-down-arr {
+	width: 20px;
+	height: 11px;
+	background: url('../icons/down.png')no-repeat center center;
+	position: absolute;
+	left: 0;
+	bottom: -13px;
+	border-top: solid 1px black;
+}
+.reg-login-hint-text {
+	list-style-type: none;
+	list-style-position: inside;
+}
+.reg-login-hint-text li {
+	padding-left: 15px;
+}
+.footer-text-ul {
+	list-style-type: none;
+}
+.footer-text-ul li {
+	padding: 2px;
+}
+#footer-text-li-1{
+	font-size: 1.2em;
+}
+#footer-text-li-2{
+	font-size: 1em;
+}
+#footer-text-li-3{
+	font-size: 0.8em;
+}
+.footer a {
+	color: white;
+	text-decoration: underline;
+}
+.aboutMomeenDotCom {
+	display: none;
+	position: absolute;
+	bottom: 116px; right: 10px;
+	width: 525px;
+	border: solid 1px gray;
+	background-color: white;
+	padding: 4px 4px 2px 4px;
+	text-align: left;
+	color: black;
+	vertical-align: middle;
+	font-size: 0.9em;
+	letter-spacing: 1px;
+}
+.me {
+	background: url('../images/shoibmohammeda.jpeg') no-repeat center center / 100% 100%;
+	border-right: solid 1px gray;
+	height: 90px;
+}
+.me, .aboutMDCContent {
+	display: inline-block;
+	width: 20%;
+}
+.aboutMDCContent {
+	width: 78%;
+}
+.aboutMDCContent ul {
+	margin: 0; padding: 0;
+	width: 100%;
+	list-style-position: inside;
+	list-style-type: none;
+}
+.aboutme-info-down-arr {
+	left: inherit;
+	right: 0;
+	bottom: -14px;
+}
+.reg-log-error-div {
+	position: absolute;
+	background-color: rgba(252, 14, 14, 0.8);
+	color: white;
+	font-weight: bold;
+	top: 0; bottom: 0;
+	left: 1%;
+	width: 40%;
+	font-size: 1em;
+	padding: 8px;
+	overflow: hidden;
+	white-space: pre;
+}
+
+.loginRegsiterLoader {
+	background-image: url('../icons/loader.gif');
+	background-repeat: no-repeat;
+	background-position: 10% center;
+	background-size: 16px;
+}
+
+.positionSlider {
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+}
+#first-time-visitors {
+	position: absolute;
+	padding: 10px 0px;
+	text-align: center;
+	z-index: 999;
+	top: 0; left: 0; right: 0;
+	font-size: 16px;
+	font-weight: bold;
+	color: white;
+	background-color: rgba(0,0,0,0.9);
+	border-bottom: solid 3px white;
+	display: none;
+}
+
+.homepage-middle-container-ismobile {
+	width: 100%;
+	margin: 10px 0px;
+}
+
+/* for testing 
+div {
+	border: solid 1px gray;
+}
+.center-container {
+	border: solid 1px green;
+}
+.graph-container {
+	border: solid 1px blue;
+}
+.login-registeration-container {
+	border: solid 1px brown;
+}
+.footer {
+	border: solid 1px yellow;
+}
+*/

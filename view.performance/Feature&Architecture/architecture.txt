@@ -1,0 +1,24 @@
+Aim:-
+	* Record works done by individual in each company, finaly show analytics.
+
+	* Make php config file where details like, security questions, or project type arrays are stored
+
+
+
+Javascript:-
+	* Use underscore prefix for global variables
+	* Dont let function to cross 12 lines
+
+
+Theme Color Combination:-
+	* http://www.colourlovers.com/palette/292482/Terra
+	* Header
+		- HEX: E8DDCB, RGB: 232,221,203 :- for important bacground
+
+		- HEX: CDB380, RGB: 205,179,128 :- for header
+
+		- HEX: 031634, RGB: 3,22,52 :- for footer
+
+		- HEX: 033649, RGB: 3,54,73 :- for important footer	
+
+		- HEX: 036564, RGB: 3,101,100 :- for important footer				
