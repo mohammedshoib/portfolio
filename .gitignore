@@ -1,0 +1,7 @@
+*.log
+*.db
+*.sql
+node_modules
+*.zip
+*.7z
+*.rar
