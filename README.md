@@ -3,7 +3,7 @@
 # PORTFOLIO
 ---
 
-###### All my projects from the beginning to till date, can be found here, each project is listed in different folder within root folder
+###### All my projects from the beginning to till date, can be found here, each project is listed in different branch.
 
 --
 
