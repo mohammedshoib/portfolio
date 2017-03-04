@@ -1,0 +1,104 @@
+#homepage-toplevel-container {
+	width: 100%;
+	overflow: hidden;
+	position: relative;
+	border: solid 1px black;
+	min-width: 700px;
+}
+.master-width {
+	width: 100%;
+	min-width: 700px;
+	max-width: 1024px;
+	position: relative;
+}
+.header {
+	overflow: hidden;
+}
+#profile-picture {
+	width: 90px;
+	height: 90px;
+	border: solid 1px black;
+	float: left;
+	margin: 4px;
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	background-position: center center;
+}
+#profile-toplevel-details-container {
+	float: left;
+	border: solid 1px black;
+}
+#profile-toplevel-details {
+	list-style-type: none;
+	padding: 2px;
+	margin: 4px 0px;
+}
+#header-theme-color {
+	width: 100%;
+	position: relative;
+	border: solid 1px green;
+}
+
+#homepage-body-container {
+	border: solid 1px blue;
+	padding: 4px;
+}
+
+#homepage-graph-details-container, #homepage-graph-container {
+	display: inline-block;
+	border: solid 1px green;
+	padding: 2px;
+}
+#homepage-graph-container {
+	width: 65%;
+}
+
+#homepage-graph-details-container {
+	width: 30%;
+}
+
+#select-project-container {
+	width: 90%;
+	margin: 4px auto;
+}
+
+#select-project-container {
+	border: solid 1px gray;
+	background: url('../icons/down.png') no-repeat right center;
+	text-align: center;
+}
+
+#homepage-graph-area {
+	width: 90%;
+	margin: auto;
+	padding: 4px;
+	border: solid 1px gray;
+}
+
+#add-feature {
+	text-align: center;
+	border: solid 1px gray;
+	margin: 4px auto;
+}
+.homepage-body-titles {
+	font-weight: bold;
+	font-size: 16px;
+	padding: 4px;
+	cursor: pointer;
+}
+
+#features-list-container {
+	border: solid 1px gray;
+	padding: 4px;
+}
+
+#new-project {
+	position: fixed;
+	left: 0; right: 0;
+	bottom: 0;
+	padding: 10px 0px;
+	text-align: center;
+	background: rgba(0,0,0,0.4);
+	font-weight: bold;
+	cursor: pointer;
+}

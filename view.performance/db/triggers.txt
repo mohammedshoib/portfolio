@@ -1,0 +1,12 @@
+//reference from http://phpsblog.agustinvillalba.com/create-triggers-phpmyadmin/
+
+
+/* 
+* when ever new user is registerd, its pk is added in register table
+*/
+
+CREATE TRIGGER new_user AFTER INSERT ON login
+FOR EACH ROW
+BEGIN
+INSERT INTO register (`login_pk`) VALUES(NEW.pk);
+END;
