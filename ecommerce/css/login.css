@@ -1,0 +1,33 @@
+#container {
+	width: 1024px;
+	border: solid 1px black;
+	margin: auto;
+}
+#header {
+	border: solid 1px black;
+	height: 40px;
+}
+#tabs {
+	height: 30px;
+	border: solid 1px black;
+}
+#tools {
+	height: 25px;
+	border: solid 1px black;
+}
+#body {
+	border: solid 1px green;
+}
+#logo {
+	width: 40px;
+	height: 40px;
+	background-size: 100%;
+	background-image: url('../icons/user.png');
+	float: left;
+	border: solid 1px green;
+}
+#userName {
+	float: left;
+	border: solid 1px blue;
+	height: 40px;
+}

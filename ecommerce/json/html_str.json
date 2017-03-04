@@ -1,0 +1,10 @@
+var html_str_json = {
+
+	"loginForm": {
+		"text": "<p>User Id</p><input type='text' placeholder='Enter user id' name='user-id' class='login-form-field' />",
+		"password": "<p>Password</p><input type='password' name='password' class='login-form-field' />",
+		"forgot-pwd": "<p>Email</p><input type='email' id='forgot-pwd-fld' class='login-form-field forgot-pwd' placeholder='Enter your email id! ' /><input type='button' value='Submit' id='forgot-pwd-btn' /><input type='button' value='X' id='forgot-pwd-close' />",
+		"submit": "<a id='register' target='_register' href='register/'>Register</a><span> | </span> <span id='forgot-pwd'>Forgot Password</span><input type='button' value='Login' id='login' />"
+	}
+
+};

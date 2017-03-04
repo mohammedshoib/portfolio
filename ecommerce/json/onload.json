@@ -1,0 +1,6 @@
+var menusObj = {
+	"home":"", "accessories":"ACCESSORIES","books":"BOOKS","brands":"BRANDS","cloths":"CLOTHS", "electronics":"ELECTRONICS",
+	"health":"HEALTH & FITNESS","home-appliances":"HOME APPLIANCES","mobiles":"MOBILES", "sports":"SPORTS","offers":"OFFERS"
+
+};
+

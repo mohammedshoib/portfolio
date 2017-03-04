@@ -1,0 +1,30 @@
+Dom
+--------------------
+	* Use jQuery, operations.
+	* On load ploting skeleton should be javascript based.
+	* No hard coded html ever, use html strings.
+	* Write optimized javascript, css, jquery always.
+
+
+Php
+-------
+	* Use OOP approach.
+	* Only common functions include in separate functions.php.
+	* Write optimized code always.
+	* No MVC approach.
+	* Dont send post params though functions in OOP, instead access it in a constructor
+
+
+Flow
+--------
+	* Fetching off data should be from json file like fetching menus, submenus.
+	* Details will be stored in database then json file is generated and updated.
+	* 
+
+
+Browser support
+------------------
+	* Ie 8+
+	* Chrome, firefox, safari, opera 3+
+	
+

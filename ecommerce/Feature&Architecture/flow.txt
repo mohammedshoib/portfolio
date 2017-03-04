@@ -1,0 +1,9 @@
+Features remaining
+----------------------
+	* search product
+	* show interest action
+	* sms api
+	* user account
+	* remove item from cart
+	* enhancement in overall website ui and code
+	* cross browser testing

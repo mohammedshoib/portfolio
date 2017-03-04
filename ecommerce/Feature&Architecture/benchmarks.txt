@@ -1,0 +1,31 @@
+Database
+--------------------
+	* All table & db names should be small letters and underscore separated if.
+	* No use of timestamp directly in query. Adv: gives query caching feature.
+	* Use Innodb engine sor storage.
+	* All key or pk in db should be lower case
+
+
+Php
+------
+	* OOP methodology use.
+	* Class names should be unerscore separated or camel casing.
+	* Variable names should be camel casing no under score.
+	* Each file should contain only one class.
+	* No sessions used in class files.
+	* No intiation of class in class file, these should be separate.
+
+Javascript
+------------
+	* Functions should always return
+
+
+Naming Convetions
+----------------------
+	* Type full name, no need to use shortcuts eg:- use keyCode instead kc
+
+
+File structure
+------------------
+	* All file names must be smaller case and underscore separated if.
+	* Make separate folder for each language code, libraries, plugins etc.

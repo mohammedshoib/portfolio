@@ -1,0 +1,10 @@
+Description
+--------------
+
+* _d = Anything which starts with _ and letter means it contains keyword or its global var.
+
+* aDE = add to document element.
+
+* sA = set attribute.
+
+* cE = create document element.

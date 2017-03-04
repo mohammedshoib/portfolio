@@ -1,0 +1,223 @@
+
+var submenusObj = {
+	"electronics": {
+		"Lap Tops": [
+			{
+				"prodId":"lenovo z580",
+				"name": "Lenovo z580",
+
+			},
+			{
+				"prodId":"lenovo z585",
+				"name": "Lenovo z585",
+
+			},			
+			{
+				"prodId":"hp pavilion",
+				"name": "Hp Pavilion",
+
+			},
+		],
+		"Computers": [
+			{
+				"prodId":"Dual Core`",
+				"name": "Dual Core",
+
+			},
+			{
+				"prodId":"lenovo z585",
+				"name": "Intel I5",
+
+			},
+		],
+		"Hard Drives": [
+			{
+				"prodId":"lenovo z580",
+				"name": "SATA 500-GB",
+
+			},
+			{
+				"prodId":"lenovo z585",
+				"name": "SATA 1-TB",
+
+			},
+		],
+		"Pen Drives": [
+			{
+				"prodId":"lenovo z580",
+				"name": "Transcend 2-GB",
+
+			},
+			{
+				"prodId":"lenovo z585",
+				"name": "HP 16-gb",
+
+			},
+		]
+	},
+	"accessories": {
+		"Lap Tops": [
+			{
+				"prodId":"lenovo z580",
+				"name": "Lenovo z580",
+
+			},
+			{
+				"prodId":"lenovo z585",
+				"name": "Lenovo z585",
+
+			},			
+			{
+				"prodId":"lenovo z585",
+				"name": "Lenovo z585",
+
+			},
+		],
+		"Computers": [
+			{
+				"prodId":"lenovo z580",
+				"name": "Lenovo z580",
+
+			},
+			{
+				"prodId":"lenovo z585",
+				"name": "Lenovo z585",
+
+			},
+		],
+		"Hard Drives": [
+			{
+				"prodId":"lenovo z580",
+				"name": "Lenovo z580",
+
+			},
+			{
+				"prodId":"lenovo z585",
+				"name": "Lenovo z585",
+
+			},
+		],
+		"Pen Drives": [
+			{
+				"prodId":"lenovo z580",
+				"name": "Lenovo z580",
+
+			},
+			{
+				"prodId":"lenovo z585",
+				"name": "Lenovo z585",
+
+			},
+		]
+	},
+	"books": {
+		"Lap Tops": [
+			{
+				"prodId":"lenovo z580",
+				"name": "Lenovo z580",
+
+			},
+			{
+				"prodId":"lenovo z585",
+				"name": "Lenovo z585",
+
+			},			
+			{
+				"prodId":"lenovo z585",
+				"name": "Lenovo z585",
+
+			},
+		],
+		"Computers": [
+			{
+				"prodId":"lenovo z580",
+				"name": "Lenovo z580",
+
+			},
+			{
+				"prodId":"lenovo z585",
+				"name": "Lenovo z585",
+
+			},
+		],
+		"Hard Drives": [
+			{
+				"prodId":"lenovo z580",
+				"name": "Lenovo z580",
+
+			},
+			{
+				"prodId":"lenovo z585",
+				"name": "Lenovo z585",
+
+			},
+		],
+		"Pen Drives": [
+			{
+				"prodId":"lenovo z580",
+				"name": "Lenovo z580",
+
+			},
+			{
+				"prodId":"lenovo z585",
+				"name": "Lenovo z585",
+
+			},
+		]
+	},
+	"brands": {
+		"Lap Tops": [
+			{
+				"prodId":"lenovo z580",
+				"name": "Lenovo z580",
+
+			},
+			{
+				"prodId":"lenovo z585",
+				"name": "Lenovo z585",
+
+			},			
+			{
+				"prodId":"lenovo z585",
+				"name": "Lenovo z585",
+
+			},
+		],
+		"Computers": [
+			{
+				"prodId":"lenovo z580",
+				"name": "Lenovo z580",
+
+			},
+			{
+				"prodId":"lenovo z585",
+				"name": "Lenovo z585",
+
+			},
+		],
+		"Hard Drives": [
+			{
+				"prodId":"lenovo z580",
+				"name": "Lenovo z580",
+
+			},
+			{
+				"prodId":"lenovo z585",
+				"name": "Lenovo z585",
+
+			},
+		],
+		"Pen Drives": [
+			{
+				"prodId":"lenovo z580",
+				"name": "Lenovo z580",
+
+			},
+			{
+				"prodId":"lenovo z585",
+				"name": "Lenovo z585",
+
+			},
+		]
+	},
+};

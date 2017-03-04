@@ -1,0 +1,32 @@
+owner_table ----done
+___________________________________________________________________________________________________
+|owner_id | name* | email* | location* | landline | mobile* | create_time* | active_for* |updated* |
+
+categorie ----done
+_______________________________________________________________________________________________________
+|categorie_id | owner_id* | categorie_name* | location* | shop_name* | create_time | avalability* | shop_rating |
+
+
+product_type ----done
+______________________________________________________________________________________________________________
+|type_id | categorie_id* | product_type* | create_time | availability* | product_rating  |
+
+
+products ----done
+_____________________________________________________________________________________________________________
+|product_id | type_id* | name* | price* | discount* | stock* | product_rating  | create_time | flag* | specs | viewed | company_name |
+|_____________________
+|image | description |
+
+comments ----pending
+_______________________________________________________________________________________________________________
+|comment_id | product_id* | name* | email* | comment* | likes | unlikes | create_time* | user_confirm_status* |
+|________________
+| admin_status* |
+
+register
+_________________________________________________________________________________________________________________
+|user_id | name | password | orig_password | logo | address | email | mobile | landline | photo | licence_aggrement | create_time | flag | 
+
+
+
